@@ -88,7 +88,7 @@ def handle_prompt(prompt_template, params):
     return response
 
 # Streamlit UI
-st.title("Chat with your CSV files")
+st.title("Telematics AIoT Assistant")
 st.sidebar.header("Upload your files")
 uploaded_files = st.sidebar.file_uploader("Choose CSV files", accept_multiple_files=True, type=["csv"])
 
